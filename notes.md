@@ -1,1 +1,2 @@
 Clarify naming
+Check documentation
