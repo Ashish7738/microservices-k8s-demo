@@ -4,3 +4,4 @@ Add comment
 Small improvement
 Minor polish
 Clean up helper
+Clarify naming
