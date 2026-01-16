@@ -9,3 +9,4 @@ Reviewed approach
 Revisit later
 Note: performance implications
 Idea: caching layer
+Add example
