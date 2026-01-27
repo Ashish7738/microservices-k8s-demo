@@ -11,3 +11,4 @@ Note: performance implications
 Idea: caching layer
 Add example
 Potential optimization
+Recheck assumptions
