@@ -17,3 +17,4 @@ Recheck assumptions
 Testing needed
 Clarify naming
 Reviewed approach
+Note: performance implications
