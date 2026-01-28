@@ -15,3 +15,4 @@ Recheck assumptions
 Add example
 Recheck assumptions
 Testing needed
+Clarify naming
