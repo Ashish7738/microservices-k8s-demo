@@ -19,3 +19,4 @@ Clarify naming
 Reviewed approach
 Note: performance implications
 Small improvement
+Clean up helper
