@@ -25,3 +25,4 @@ Consider edge cases
 Add comment
 Small improvement
 Add example
+Refactor candidate
