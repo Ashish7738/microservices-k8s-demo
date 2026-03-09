@@ -27,3 +27,4 @@ Small improvement
 Add example
 Refactor candidate
 Add comment
+Note: performance implications
