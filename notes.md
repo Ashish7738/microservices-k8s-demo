@@ -5,3 +5,4 @@ Idea: caching layer
 Check documentation
 Cross-reference
 Note: performance implications
+Keep simple
