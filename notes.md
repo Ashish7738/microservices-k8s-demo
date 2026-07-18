@@ -6,3 +6,4 @@ Check documentation
 Cross-reference
 Note: performance implications
 Keep simple
+Note: performance implications
