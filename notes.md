@@ -40,3 +40,4 @@ Try alternative approach
 Add comment
 Try alternative approach
 Potential optimization
+Note: performance implications
