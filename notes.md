@@ -6,3 +6,4 @@ Reviewed approach
 Check documentation
 Try alternative approach
 Try alternative approach
+Note: performance implications
