@@ -8,3 +8,4 @@ Note: performance implications
 Keep simple
 Note: performance implications
 Check documentation
+Clean up helper
