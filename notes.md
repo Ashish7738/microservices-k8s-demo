@@ -5,3 +5,4 @@ Reviewed approach
 Testing needed
 Small improvement
 Consider edge cases
+Idea: caching layer
