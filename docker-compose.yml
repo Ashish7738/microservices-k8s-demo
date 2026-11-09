@@ -1,0 +1,18 @@
+services:
+  products-service:
+    build: ./products-service
+    image: products-service:1.0
+  orders-service:
+    build: ./orders-service
+    image: orders-service:1.0
+  frontend:
+    build: ./frontend
+    image: frontend:1.0
+    ports:
+      - "5000:5000"
+    environment:
+      PRODUCTS_URL: http://products-service:5001
+      ORDERS_URL: http://orders-service:5002
+    depends_on:
+      - products-service
+      - orders-service
