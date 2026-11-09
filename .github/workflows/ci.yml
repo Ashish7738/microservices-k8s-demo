@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-images:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: [products-service, orders-service, frontend]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build ${{ matrix.service }} image
+        run: docker build -t ${{ matrix.service }}:ci ./${{ matrix.service }}
+
+  validate-manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install kubeconform
+        run: |
+          curl -sSL https://github.com/yannh/kubeconform/releases/download/v0.6.7/kubeconform-linux-amd64.tar.gz | tar xz
+          sudo mv kubeconform /usr/local/bin/
+      - name: Validate Kubernetes manifests
+        run: kubeconform -strict -summary k8s/
