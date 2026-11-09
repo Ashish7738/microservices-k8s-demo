@@ -55,8 +55,18 @@ kubectl get pods
 - CI builds all three images and validates the manifests with kubeconform on every push.
 
 ## Screenshots
-Add your screenshots to `docs/screenshots/` and reference them here, for example:
-`![Pods running](docs/screenshots/pods-running.png)`
+
+### Pods running
+![Pods running](docs/screenshots/pods-running.png)
+
+### App in the browser
+![App in browser](docs/screenshots/app-in-browser.png)
+
+### Scaling
+![Scaling](docs/screenshots/scaling.png)
+
+### Self-healing
+![Self-healing](docs/screenshots/self-healing.png)
 
 ## What I learned
 Write 3 or 4 points in your own words (service discovery, probes, scaling, debugging).
